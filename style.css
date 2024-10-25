@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.resume-container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+}
+
+header h2 {
+    color: #555;
+}
+
+.skills, .experience, .education, .projects {
+    margin-top: 20px;
+}
+
+h3 {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job h4 {
+    color: #007BFF;
+}
